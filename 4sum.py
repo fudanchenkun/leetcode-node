@@ -1,3 +1,13 @@
+
+'''
+使用递归找出所有的组合，但实际上这并不是此题的关键，可以用其它方式替代
+主要是剪枝，跳过不可能的情况：
+（1）先排序
+（2）前n-1的结果一定是比target小的
+还有如何去重的问题，tuple是可hash的
+'''
+
+
 class Solution(object):
     def fourSum(self, nums, target):
         """
