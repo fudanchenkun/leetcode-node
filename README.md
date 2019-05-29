@@ -1,0 +1,3 @@
+# leetcode-note
+
+note
